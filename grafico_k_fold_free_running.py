@@ -105,14 +105,14 @@ def grafico_A_k_fold(opcao, Matriz_dados_k_fold_OC_0, Matriz_dados_k_fold_OC_10,
     # COmando para o tamanho dos números do eixo das abscissas.
     plt.xticks(fontsize = 18)
     
+    # Comando para o tamanho dos números do eixo das ordenadas.
+    plt.yticks(fontsize = 16)
+    
     # Caso opcao seja 1:
     if opcao == 1:
         
         # Comando para o nome do eixo das ordenadas.
         plt.ylabel("Média da média do erro de estimação (PARÂMETRO) (ADC Count)", fontsize = 18)
-        
-        # Comando para o tamanho dos números do eixo das ordenadas.
-        plt.yticks(fontsize = 16)
         
     # Caso opcao seja 2.
     elif opcao == 2:
@@ -120,17 +120,11 @@ def grafico_A_k_fold(opcao, Matriz_dados_k_fold_OC_0, Matriz_dados_k_fold_OC_10,
         # Comando para o nome do eixo das ordenadas.
         plt.ylabel("Média da var. do erro de estimação (PARÂMETRO) (ADC Count)", fontsize = 18)
         
-        # Comando para o tamanho dos números do eixo das ordenadas.
-        plt.yticks(fontsize = 16)
-        
     # Caso opcao seja 3.
     elif opcao == 3:
         
         # Comando para o nome do eixo das ordenadas.
         plt.ylabel("Média do DP. do erro de estimação (PARÂMETRO) (ADC Count)", fontsize = 18)
-        
-        # Comando para o tamanho dos números do eixo das ordenadas.
-        plt.yticks(fontsize = 16)
         
     # Armazenamento dos dados referentes a ocupação 0.
     Matriz_dados_medias_k_fold_OC_0 = Matriz_dados_k_fold_OC_0[: , indice_coluna_medias]
@@ -220,14 +214,14 @@ def grafico_B_k_fold(opcao, Matriz_dados_k_fold_OC_0, Matriz_dados_k_fold_OC_10,
     # COmando para o tamanho dos números do eixo das abscissas.
     plt.xticks(fontsize = 18)
     
+    # Comando para o tamanho dos números do eixo das ordenadas.
+    plt.yticks(fontsize = 16)
+    
     # Caso opcao seja 1:
     if opcao == 1:
         
         # Comando para o nome do eixo das ordenadas.
         plt.ylabel("Média da média do erro de estimação (PARÂMETRO) (ADC Count)", fontsize = 18)
-        
-        # Comando para o tamanho dos números do eixo das ordenadas.
-        plt.yticks(fontsize = 16)
         
     # Caso opcao seja 2.
     elif opcao == 2:
@@ -235,17 +229,11 @@ def grafico_B_k_fold(opcao, Matriz_dados_k_fold_OC_0, Matriz_dados_k_fold_OC_10,
         # Comando para o nome do eixo das ordenadas.
         plt.ylabel("Média da var. do erro de estimação (PARÂMETRO) (ADC Count)", fontsize = 18)
         
-        # Comando para o tamanho dos números do eixo das ordenadas.
-        plt.yticks(fontsize = 16)
-        
     # Caso opcao seja 3.
     elif opcao == 3:
         
         # Comando para o nome do eixo das ordenadas.
         plt.ylabel("Média do DP. do erro de estimação (PARÂMETRO) (ADC Count)", fontsize = 18)
-        
-        # Comando para o tamanho dos números do eixo das ordenadas.
-        plt.yticks(fontsize = 16)
     
     # Definição dos índices para cada um dos janelamentos de acordo com a organização do arquivo de entrada.    
     indice_J7 = 0
