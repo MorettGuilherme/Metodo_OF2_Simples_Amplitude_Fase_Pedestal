@@ -7,33 +7,33 @@ Obs.: nesse algorimtmo, a fase estimada é calculada pela divisão entre o temo 
 A seguir são listadas as pastas e também os arquivos contidos nesse repositório, assim como suas respectivas funções:
 
 1. Dados_Estatisticos_BLUE1_amplitude_OC
-   * Essa pasta contém arquivos para cada um dos janelamento com os valores das ocupações e médias, variâncias e desvios padrões associados para o erro de estimação da amplitude.
+  * Essa pasta contém arquivos para cada um dos janelamento com os valores das ocupações e médias, variâncias e desvios padrões associados para o erro de estimação da amplitude.
 
-2. Dados_Estatisticos_BLUE1_fase_OC
-   * Essa pasta contém arquivos para cada um dos janelamento com os valores das ocupações e médias, variâncias e desvios padrões associados para o erro de estimação da fase.
+3. Dados_Estatisticos_BLUE1_fase_OC
+  * Essa pasta contém arquivos para cada um dos janelamento com os valores das ocupações e médias, variâncias e desvios padrões associados para o erro de estimação da fase.
   
-3. Dados_Estatisticos_BLUE1_pedestal_OC
-   * Essa pasta contém arquivos para cada um dos janelamento com os valores das ocupações e médias, variâncias e desvios padrões associados para o erro de estimação do pedestal.
+4. Dados_Estatisticos_BLUE1_pedestal_OC
+  * Essa pasta contém arquivos para cada um dos janelamento com os valores das ocupações e médias, variâncias e desvios padrões associados para o erro de estimação do pedestal.
   
-4. Dados_Ocupacoes_Free_Running
-   * Essa pasta contém arquivos com os dados para cada uma das ocupações referentes ao pulso de sinal, amplitude de referência, fase de referência e ruído computados a cada 25 ns (perído das colisões no LHC).
+5. Dados_Ocupacoes_Free_Running
+  * Essa pasta contém arquivos com os dados para cada uma das ocupações referentes ao pulso de sinal, amplitude de referência, fase de referência e ruído computados a cada 25 ns (perído das colisões no LHC).
   
-5. K_Fold_amplitude_DP_Dados_Estatisticos_BLUE1_OC
-   * Essa pasta contém arquivos para cada uma das ocupações; os valores dos janelamentos com as médias, variâncias e desvios padrão dos desvios padrão dos erros de estimação da amplitude calculados pela técnica de validação cruzada K-Fold.
+6. K_Fold_amplitude_DP_Dados_Estatisticos_BLUE1_OC
+  * Essa pasta contém arquivos para cada uma das ocupações; os valores dos janelamentos com as médias, variâncias e desvios padrão dos desvios padrão dos erros de estimação da amplitude calculados pela técnica de validação cruzada K-Fold.
 
-6. K_Fold_amplitude_media_Dados_Estatisticos_BLUE1_OC
-   * Essa pasta contém arquivos para cada uma das ocupações; os valores dos janelamentos com as médias, variâncias e desvios padrão das médias dos erros de estimação da amplitude calculados pela técnica de validação cruzada K-Fold.
+7. K_Fold_amplitude_media_Dados_Estatisticos_BLUE1_OC
+  * Essa pasta contém arquivos para cada uma das ocupações; os valores dos janelamentos com as médias, variâncias e desvios padrão das médias dos erros de estimação da amplitude calculados pela técnica de validação cruzada K-Fold.
 
-7. K_Fold_amplitude_variancia_Dados_Estatisticos_BLUE1_OC
-   * Essa pasta contém arquivos para cada uma das ocupações; os valores dos janelamentos com as médias, variâncias e desvios padrão das variâncias dos erros de estimação da amplitude calculados pela técnica de validação cruzada K-Fold.
+8. K_Fold_amplitude_variancia_Dados_Estatisticos_BLUE1_OC
+  * Essa pasta contém arquivos para cada uma das ocupações; os valores dos janelamentos com as médias, variâncias e desvios padrão das variâncias dos erros de estimação da amplitude calculados pela técnica de validação cruzada K-Fold.
 
-8. K_Fold_fase_DP_Dados_Estatisticos_BLUE1_OC
-   * Essa pasta contém arquivos para cada uma das ocupações; os valores dos janelamentos com as médias, variâncias e desvios padrão dos desvios padrão dos erros de estimação da fase calculados pela técnica de validação cruzada K-Fold.
+9. K_Fold_fase_DP_Dados_Estatisticos_BLUE1_OC
+  * Essa pasta contém arquivos para cada uma das ocupações; os valores dos janelamentos com as médias, variâncias e desvios padrão dos desvios padrão dos erros de estimação da fase calculados pela técnica de validação cruzada K-Fold.
 
-9. K_Fold_fase_media_Dados_Estatisticos_BLUE1_OC
+10. K_Fold_fase_media_Dados_Estatisticos_BLUE1_OC
    * Essa pasta contém arquivos para cada uma das ocupações; os valores dos janelamentos com as médias, variâncias e desvios padrão das médias dos erros de estimação da fase calculados pela técnica de validação cruzada K-Fold.
   
-10. K_Fold_fase_variancia_Dados_Estatisticos_BLUE1_OC
+11. K_Fold_fase_variancia_Dados_Estatisticos_BLUE1_OC
    * Essa pasta contém arquivos para cada uma das ocupações; os valores dos janelamentos com as médias, variâncias e desvios padrão das médias dos erros de estimação da fase calculados pela técnica de validação cruzada K-Fold.
 
 11. K_Fold_pedestal_DP_Dados_Estatisticos_BLUE1_OC
