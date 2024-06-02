@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Projeto ATLAS - Reconstrução de sinal - Best Linear Unbiased Estimator (BLUE 1).
 # Autor: Guilherme Barroso Morett.
 # Data: 01 de junho de 2024.
@@ -204,7 +203,7 @@ def principal_arquivo_saida_dados_estatisticos_blue1():
 principal_arquivo_saida_dados_estatisticos_blue1()
 
 # Impressão de uma linha que representa o fim do programa.
-=======
+
 # Projeto ATLAS - Reconstrução de sinal - Best Linear Unbiased Estimator (BLUE 1).
 # Autor: Guilherme Barroso Morett.
 # Data: 01 de junho de 2024.
@@ -410,5 +409,5 @@ def principal_arquivo_saida_dados_estatisticos_blue1():
 principal_arquivo_saida_dados_estatisticos_blue1()
 
 # Impressão de uma linha que representa o fim do programa.
->>>>>>> 46fbc7e9c27787d0a2d4cde5a6b94995bab5c036
+
 print("\n---------------------------------------------------------------------------------------------------------------------------------------\n")
