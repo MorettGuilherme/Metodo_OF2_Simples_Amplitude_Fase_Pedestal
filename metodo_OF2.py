@@ -21,11 +21,11 @@ Saída: vetor pulso de referência para cada instante de tempo de acordo com o j
 Entrada: número de janelamento.
 Saída: vetor da derivada temporal do pulso de referência para cada instante de tempo de acordo com o janelamento.
 
-3) Função para a construção da matriz de coeficientes do método OF 2.
+3) Função para a construção da matriz de coeficientes do método OF2.
 Entrada: número de janelamento, matriz de covariância, vetor pulso de referência, vetor da derivada do pulso de referência.
 Saída: matriz de coeficientes adaptada para determinado janelamento.
 
-4) Vetor de resposta do método OF 2.
+4) Vetor de resposta do método OF2.
 Entrada: número de janelamento.
 Saída: vetor de resposta adaptado para determinado janelamento.
 
