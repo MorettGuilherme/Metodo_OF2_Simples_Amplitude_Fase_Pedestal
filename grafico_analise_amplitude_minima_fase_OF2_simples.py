@@ -261,7 +261,7 @@ def principal_grafico_dado_estatistico_analise_fase_OF2_simples():
     valores_ocupacoes = list(range(10,101,10))
     
     # A variável n_janelamento_ideal_amplitude_estimada recebe o valor ideal da amplitude estimada pela análise dos grafícos do K-Fold.
-    n_janelamento_ideal_amplitude_estimada = 19
+    n_janelamento_ideal_amplitude_estimada = int(input("Digite o número do janelamento ideal para o parâmetro estimado desejado: "))
 
     # Caso o valor digitado armazenado na variável n_ocupação não estiver presente na lista valores_ocupacao.
     if n_ocupacao not in valores_ocupacoes:
